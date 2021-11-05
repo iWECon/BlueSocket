@@ -64,7 +64,7 @@ let toolsBuildInfo = BuildInfo(
             targets: ["BlueSocketTestClient"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.4.1"),
+        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMajor(from: "1.0.0")),
     ],
     targets: [
         .target(name: "BlueSocketTestServer",
